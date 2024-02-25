@@ -1,27 +1,47 @@
 # CountryApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+Bienvenido al repositorio de CountryApp, la aplicación web diseñada para ofrecerte información detallada y accesible sobre los países del mundo.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+CountryApp es una plataforma intuitiva que permite a los usuarios explorar datos sobre diferentes naciones, incluyendo geografía, demografía, cultura, y mucho más. Ya sea que estés planeando tu próximo viaje, investigando para un proyecto o simplemente saciando tu curiosidad, CountryApp te abre las puertas al conocimiento global.
 
-## Code scaffolding
+## Características
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Búsqueda por Nombre**: Encuentra países introduciendo el nombre en un campo de búsqueda fácil de usar.
+- **Búsqueda por Capital**: Descubre países a partir de sus capitales.
+- **Búsqueda por Región**: Explora países basados en su localización geográfica.
+- **Información Detallada**: Accede a una riqueza de información que incluye historia, economía, símbolos nacionales, y más.
 
-## Build
+## Inicio Rápido
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para comenzar a usar CountryApp, sigue estos pasos:
 
-## Running unit tests
+1. Clona el repositorio en tu máquina local.
+2. Navega al directorio del proyecto.
+3. Instala las dependencias con `npm install`.
+4. Inicia el servidor de desarrollo con `ng serve`.
+5. Abre tu navegador y visita `http://localhost:4200/`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contribuir
 
-## Running end-to-end tests
+Si deseas contribuir al proyecto, por favor sigue los siguientes pasos:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Haz un "Fork" del repositorio.
+2. Crea una nueva rama para tus cambios.
+3. Haz tus cambios y escribe casos de prueba cuando sea posible.
+4. Envía un "Pull Request" con una descripción detallada de tus cambios.
 
-## Further help
+## Licencia
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este proyecto está bajo la Licencia [INSERTE NOMBRE DE LICENCIA AQUÍ]. Consulta el archivo `LICENSE` para más detalles.
+
+## Autor
+
+**Miguel Ángel Cobo Pérez**
+
+Estudiante de Desarrollo de Aplicaciones Web (DAW2) y entusiasta de la tecnología. Creador de CountryApp con el objetivo de facilitar el acceso a información cultural y geográfica de todas las naciones.
+
+---
+
+Gracias por visitar y usar CountryApp!
