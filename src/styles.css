@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-item {
+    display: inline-block;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 5px 0;
+  }
+  
+  .hero {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .search-form {
+    margin-top: 20px;
+  }
+  
+  .search-form input[type="search"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .search-form button {
+    padding: 10px 20px;
+    background-color: #008000;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #005700;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  

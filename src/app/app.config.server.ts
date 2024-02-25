@@ -7,5 +7,9 @@ const serverConfig: ApplicationConfig = {
     provideServerRendering()
   ]
 };
+import { ReactiveFormsModule } from '@angular/forms';
+import { ContactPageComponent } from './shared/pages/contact-page/contact-page.component';
+import { TestBed } from '@angular/core/testing';
+
 
 export const config = mergeApplicationConfig(appConfig, serverConfig);

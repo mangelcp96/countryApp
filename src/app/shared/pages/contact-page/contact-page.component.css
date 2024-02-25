@@ -1,0 +1,69 @@
+/* Estilo general del formulario */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  /* Estilo de los grupos de formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Etiquetas del formulario para mejor visualización */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Estilo de los controles de entrada de texto y área de texto */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegúrate de que padding no afecte el ancho total */
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  
+  /* Estilo del botón de envío */
+  button.btn-primary {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  button.btn-primary:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Estilo para los mensajes de error (opcional, si decides agregarlos) */
+  .form-group .error-message {
+    color: #d9534f; /* rojo */
+    font-size: 0.9em;
+  }
+  
+  /* Si estás usando Bootstrap, muchos de estos estilos ya están definidos y puedes omitirlos */
+
+  

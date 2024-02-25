@@ -1,0 +1,23 @@
+.about-container {
+    text-align: center;
+    padding: 2rem;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  .about-container h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .creator-info,
+  .team-section {
+    margin-bottom: 2rem;
+  }
+  
+  .creator-info h2,
+  .team-section h2 {
+    color: #0056b3;
+  }
+  
+  /* Añadir más estilos según sea necesario */
+  

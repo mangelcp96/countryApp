@@ -1,0 +1,52 @@
+<div *ngIf="country" class="container mt-3">
+  <h1 class="display-1">{{ country.name.common }} ({{ country.cca3 }})</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <img [src]="country.flags.svg" [alt]="country.name.common" class="img-thumbnail">
+    </div>
+    <div class="col-md-6">
+      <h2>Detalles</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>Nombre oficial:</strong> {{ country.name.official }}
+        </li>
+        <li class="list-group-item">
+          <strong>Capital:</strong> {{ country.capital?.[0] }}
+        </li>
+        <li class="list-group-item">
+          <strong>Población:</strong> {{ country.population | number }}
+        </li>
+        <li class="list-group-item" *ngIf="country.area">
+          <strong>Área:</strong> {{ country.area | number }} km²
+        </li>
+        <li class="list-group-item">
+          <strong>Región:</strong> {{ country.region }}
+        </li>
+        <li class="list-group-item" *ngIf="country.subregion">
+          <strong>Subregión:</strong> {{ country.subregion }}
+        </li>
+        <li class="list-group-item" *ngIf="country.languages">
+          <strong>Idiomas:</strong>
+          <ul>
+            <li *ngFor="let lang of country.languages | keyvalue">
+              {{ lang.value }}
+            </li>
+          </ul>
+        </li>
+        <li class="list-group-item" *ngIf="country.currencies">
+          <strong>Moneda:</strong>
+          <ul>
+            <li *ngFor="let currency of country.currencies | keyvalue">
+              {{ currency.value.name }} ({{ currency.value.symbol }})
+            </li>
+          </ul>
+        </li>
+        <!-- Más detalles que quieras añadir -->
+      </ul>
+    </div>
+  </div>
+</div>
+<div *ngIf="!country" class="alert alert-danger">
+  No se pudo cargar la información del país.
+</div>
+
